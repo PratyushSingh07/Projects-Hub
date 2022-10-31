@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectsHub"
         tools:targetApi="31">
-        <activity android:name=".HomeActivity"
-            android:label="Home"/>
+        <activity android:name=".LandingActivity"
+            android:label="Login"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
