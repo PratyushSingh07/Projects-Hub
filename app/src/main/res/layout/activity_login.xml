@@ -47,7 +47,7 @@
             android:id="@+id/loginPassMain"
             android:hint="Enter your password"
             android:fontFamily="@font/mon"
-            android:inputType="textPassword">
+            >
 
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -68,12 +68,12 @@
 
     <TextView
         android:id="@+id/forgotPassMain"
-        android:fontFamily="@font/mon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginBtnMain"
         android:layout_centerInParent="true"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/mon"
         android:text="Forgot Password?"
         android:textAlignment="center"
         android:textColor="@color/white"
