@@ -19,13 +19,16 @@ class DashboardActivity:AppCompatActivity() {
         val bookmarkFragment=BookmarkFragment()
         val settingsFragment=SettingsFragment()
 
-        btn.setOnNavigationItemReselectedListener{
+        setCurrentFragment(homeFragment)//default fragment when the screen loads
+
+        btn.setOnItemSelectedListener{
             when(it.itemId){
                 R.id.home->setCurrentFragment(homeFragment)
                 R.id.searchBar->setCurrentFragment(searchFragment)
                 R.id.Bookmark->setCurrentFragment(bookmarkFragment)
                 R.id.settings->setCurrentFragment(settingsFragment)
             }
+            false
         }
     }
     private fun setCurrentFragment(fragment: Fragment)=
