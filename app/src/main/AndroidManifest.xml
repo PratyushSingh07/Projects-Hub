@@ -17,6 +17,7 @@
             android:label="Login"/>
         <activity android:name=".LoginActivity"/>
         <activity android:name=".SignUpActivity"/>
+        <activity android:name=".DashboardActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
