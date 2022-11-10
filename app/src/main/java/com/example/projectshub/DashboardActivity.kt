@@ -28,7 +28,7 @@ class DashboardActivity:AppCompatActivity() {
                 R.id.Bookmark->setCurrentFragment(bookmarkFragment)
                 R.id.settings->setCurrentFragment(settingsFragment)
             }
-            false
+            true// ye likhne se icon change hote hue dikega but false likhne se frag change hoga but icon nhi
         }
     }
     private fun setCurrentFragment(fragment: Fragment)=
