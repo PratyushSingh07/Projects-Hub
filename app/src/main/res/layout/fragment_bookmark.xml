@@ -9,6 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/bookmarkAnim"
             android:layout_width="150dp"
@@ -16,7 +17,7 @@
             android:layout_centerInParent="true"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/bookmark"/>
+            app:lottie_rawRes="@raw/bookmark" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,5 +27,17 @@
             android:textSize="25sp"
             android:textColor="@color/white"/>
     </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
 </FrameLayout>

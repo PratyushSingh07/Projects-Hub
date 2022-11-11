@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.233" />
+        <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/drawable/settings_color_theme.xml" value="0.233" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/font/register_text.xml" value="0.2791666666666667" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/activity_dash.xml" value="0.25" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/activity_landing.xml" value="0.25" />
@@ -14,7 +16,7 @@
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/fragment_search.xml" value="0.25" />
-        <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/layout/fragment_settings.xml" value="0.2" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/menu/dashboard_menu.xml" value="0.25" />
         <entry key="..\:/Users/aries/AndroidStudioProjects/ProjectsHub/app/src/main/res/menu/menu.xml" value="0.1875" />
       </map>
